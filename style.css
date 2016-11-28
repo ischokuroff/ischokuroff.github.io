@@ -119,6 +119,10 @@ img:hover {
 
 @media only screen and (max-device-width: 400px) {
 
+  html {
+    background: url(img/Mobile_bg_img.png) no-repeat center center fixed;
+  }
+
   section {
     width: 228px;
   }
