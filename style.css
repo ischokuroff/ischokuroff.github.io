@@ -1,15 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  color: #FFF;
-  background-color: #000;
+  background: url(img/Desktop_HD_bg_img.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: "Open Sans", sans-serif;
+  color: #FFF;
+}
+
+body {
+  position: relative;
+  text-align: center;
+}
+
+section {
+  width: 822px;
+  margin: auto;
 }
 
 h1 {
   font-weight: bold;
   font-size: 114px;
+  margin-top: 165px;
 }
 
 h2 {
   font-weight: 100;
   opacity: 0.6;
+  margin-top: 20px;
+}
+
+.icons {
+  opacity: 0.4;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+ul {
+  margin-top: 60px;
+}
+
+ ul li {
+   display: inline-block;
+   margin-right: 30px;
+ }
+
+ul li a img:hover {
+  opacity: 1;
 }
