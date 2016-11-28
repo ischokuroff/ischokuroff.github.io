@@ -64,6 +64,7 @@ img:hover {
   opacity: 1;
 }
 
+/* Desktop */
 @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
 
   section {
@@ -89,6 +90,7 @@ img:hover {
 
 }
 
+/* Tablet */
 @media only screen and (min-device-width: 401px) and (max-device-width: 768px) {
 
   section {
@@ -115,8 +117,13 @@ img:hover {
     margin-bottom: 40px;
   }
 
+  img {
+    opacity: 1;
+  }
+
 }
 
+/* Mobile */
 @media only screen and (max-device-width: 400px) {
 
   html {
@@ -148,6 +155,10 @@ img:hover {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 40px;
+  }
+
+  img {
+    opacity: 1;
   }
 
 }
