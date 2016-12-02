@@ -4,7 +4,7 @@
 }
 
 html {
-  background: url(img/Desktop_HD_bg_img.png) no-repeat center center fixed;
+  background: url(img/Desktop_HD_bg_img.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -127,7 +127,7 @@ img:hover {
 @media only screen and (max-device-width: 400px) {
 
   html {
-    background: url(img/Mobile_bg_img.png) no-repeat center center fixed;
+    background: url(img/Mobile_bg_img.jpg) no-repeat center center fixed;
   }
 
   section {
