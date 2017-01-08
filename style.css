@@ -4,7 +4,7 @@
 }
 
 html {
-  background: url(img/Desktop_HD_bg_img.jpg) no-repeat center center fixed;
+  background: url(img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +32,6 @@ h1 {
 h2 {
   font-weight: 100;
   opacity: 0.6;
-  margin-top: 20px;
 }
 
 h1, h2 {
@@ -47,8 +46,8 @@ img {
   width: 60px;
 }
 
-ul {
-  margin-top: 60px;
+.icons {
+  margin-top: 30px;
 }
 
  ul li {
@@ -113,10 +112,6 @@ img:hover {
     margin-top: 80px;
   }
 
-  ul li {
-    margin-bottom: 40px;
-  }
-
   img {
     opacity: 1;
   }
@@ -125,10 +120,6 @@ img:hover {
 
 /* Mobile */
 @media only screen and (max-device-width: 400px) {
-
-  html {
-    background: url(img/Mobile_bg_img.jpg) no-repeat center center fixed;
-  }
 
   section {
     width: 228px;
